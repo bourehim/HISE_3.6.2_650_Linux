@@ -1,0 +1,27 @@
+build/intermediate/Debug/include_hi_rlottie_27_ccc8c45b.o: \
+ ../../JuceLibraryCode/include_hi_rlottie_27.cpp \
+ ../../JuceLibraryCode/AppConfig.h \
+ ../../../../../HISE/hi_rlottie/hi_rlottie_27.cpp \
+ ../../../../../HISE/hi_rlottie/src/surpress_warnings_begin.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/lottiemodel.cpp \
+ ../../../../../HISE/hi_rlottie/src/lottie/lottiemodel.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/varenaalloc.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vbezier.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vpoint.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vglobal.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vdebug.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/../config.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vbrush.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vmatrix.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vrect.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vbitmap.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vsharedptr.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vinterpolator.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vmatrix.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vpath.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vcowptr.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vpoint.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vrect.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vimageloader.h \
+ ../../../../../HISE/hi_rlottie/src/lottie/../vector/vline.h \
+ ../../../../../HISE/hi_rlottie/src/surpress_warnings_end.h

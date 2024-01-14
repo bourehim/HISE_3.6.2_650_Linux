@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jUHBuI" name="HISE Standalone" projectType="guiapp" version="3.6.2"
+              bundleIdentifier="com.hartinstruments.HISEStandalone" includeBinaryInAppConfig="1"
+              companyName="Hart Instruments" companyWebsite="http://hise.audio"
+              companyCopyright="Hart Instruments" displaySplashScreen="1" reportAppUsage="0"
+              splashScreenColour="Dark" cppLanguageStandard="17" jucerFormatVersion="1">
+  <MAINGROUP id="yomWt4" name="HISE Standalone">
+    <GROUP id="{577963C7-1A49-BB2A-D701-52DC7A5895F7}" name="Source">
+      <FILE id="Fw455d" name="ScriptNodeTestSuite.cpp" compile="1" resource="0"
+            file="../../hi_scripting/scripting/scriptnode/ScriptNodeTestSuite.cpp"/>
+      <FILE id="ho3qQy" name="logo_new.png" compile="0" resource="1" file="../../hi_core/hi_images/logo_new.png"/>
+      <FILE id="YnIt9L" name="logo_mini.png" compile="0" resource="1" file="../../hi_core/hi_images/logo_mini.png"/>
+      <FILE id="yjZXfQ" name="DspUnitTests.cpp" compile="1" resource="0"
+            file="../../hi_scripting/scripting/api/DspUnitTests.cpp"/>
+      <FILE id="EQP6SW" name="HiseEventBufferUnitTests.cpp" compile="1" resource="0"
+            file="../../hi_core/hi_core/HiseEventBufferUnitTests.cpp"/>
+      <FILE id="tTUrnI" name="infoError.png" compile="0" resource="1" file="../../hi_core/hi_images/infoError.png"/>
+      <FILE id="Ugx13U" name="infoInfo.png" compile="0" resource="1" file="../../hi_core/hi_images/infoInfo.png"/>
+      <FILE id="rNV4cu" name="infoQuestion.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/infoQuestion.png"/>
+      <FILE id="X7hemd" name="infoWarning.png" compile="0" resource="1" file="../../hi_core/hi_images/infoWarning.png"/>
+      <FILE id="EfOrgJ" name="FrontendKnob_Bipolar.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/FrontendKnob_Bipolar.png"/>
+      <FILE id="hJJvHU" name="FrontendKnob_Unipolar.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/FrontendKnob_Unipolar.png"/>
+      <FILE id="BPrHyu" name="balanceKnob_200.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/balanceKnob_200.png"/>
+      <FILE id="OSpRCj" name="knobEmpty_200.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/knobEmpty_200.png"/>
+      <FILE id="u4ioUB" name="knobModulated_200.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/knobModulated_200.png"/>
+      <FILE id="R0Hdz6" name="knobUnmodulated_200.png" compile="0" resource="1"
+            file="../../hi_core/hi_images/knobUnmodulated_200.png"/>
+      <FILE id="hSh2fs" name="toggle_200.png" compile="0" resource="1" file="../../hi_core/hi_images/toggle_200.png"/>
+      <FILE id="OAAVOx" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="h7HW4R" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="btXzOW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="OLb0nc" name="knob_without_arrow.png" compile="0" resource="1"
+          file="../../hi_core/hi_images/knob_without_arrow.png"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="0" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="hi_backend" path="../../../HISE"/>
+        <MODULEPATH id="hi_core" path="../../../HISE"/>
+        <MODULEPATH id="hi_dsp_library" path="../../../HISE"/>
+        <MODULEPATH id="hi_faust" path="../../../HISE"/>
+        <MODULEPATH id="hi_faust_jit" path="../../../HISE"/>
+        <MODULEPATH id="hi_faust_lib" path="../../../HISE"/>
+        <MODULEPATH id="hi_faust_types" path="../../../HISE"/>
+        <MODULEPATH id="hi_lac" path="../../../HISE"/>
+        <MODULEPATH id="hi_rlottie" path="../../../HISE"/>
+        <MODULEPATH id="hi_scripting" path="../../../HISE"/>
+        <MODULEPATH id="hi_snex" path="../../../HISE"/>
+        <MODULEPATH id="hi_streaming" path="../../../HISE"/>
+        <MODULEPATH id="hi_tools" path="../../../HISE"/>
+        <MODULEPATH id="hi_zstd" path="../../../HISE"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="hi_backend" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="hi_dsp_library" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="hi_faust" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_faust_jit" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_faust_lib" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_faust_types" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_lac" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="hi_rlottie" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_scripting" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="hi_snex" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_streaming" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="hi_tools" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="hi_zstd" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_product_unlocking" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS USE_IPP="0" USE_BACKEND="1" USE_FRONTEND="0" USE_RAW_FRONTEND="0"
+               IS_STANDALONE_APP="1" USE_COPY_PROTECTION="0" HI_EXPORT_DSP_LIBRARY="0"
+               JUCE_LOAD_CURL_SYMBOLS_LAZILY="1" HI_SUPPORT_FULL_DYNAMICS_HLAC="1"
+               ENABLE_PLOTTER="1" ENABLE_SCRIPTING_SAFE_CHECKS="1" ENABLE_SCRIPTING_BREAKPOINTS="1"
+               ENABLE_ALL_PEAK_METERS="1" JUCE_ASIO="1" JUCE_DIRECTSOUND="1"
+               JUCE_USE_DIRECTWRITE="1" JUCE_JACK="1" HISE_ENABLE_EXPANSIONS="1"
+               HISE_ENABLE_MIDI_INPUT_FOR_FX="1" JUCE_STRICT_REFCOUNTEDPOINTER="1"
+               HISE_INCLUDE_RLOTTiE="1" HISE_INCLUDE_SNEX="1"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+    <LINUX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

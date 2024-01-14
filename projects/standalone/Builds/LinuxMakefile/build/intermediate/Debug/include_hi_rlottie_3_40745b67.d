@@ -1,0 +1,22 @@
+build/intermediate/Debug/include_hi_rlottie_3_40745b67.o: \
+ ../../JuceLibraryCode/include_hi_rlottie_3.cpp \
+ ../../JuceLibraryCode/AppConfig.h \
+ ../../../../../HISE/hi_rlottie/hi_rlottie_3.cpp \
+ ../../../../../HISE/hi_rlottie/src/surpress_warnings_begin.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vraster.cpp \
+ ../../../../../HISE/hi_rlottie/src/vector/vraster.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vglobal.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vdebug.h \
+ ../../../../../HISE/hi_rlottie/src/vector/../config.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vrect.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vpoint.h \
+ ../../../../../HISE/hi_rlottie/src/vector/freetype/v_ft_raster.h \
+ ../../../../../HISE/hi_rlottie/src/vector/freetype/v_ft_types.h \
+ ../../../../../HISE/hi_rlottie/src/vector/freetype/v_ft_stroker.h \
+ ../../../../../HISE/hi_rlottie/src/vector/freetype/v_ft_raster.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vmatrix.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vpath.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vcowptr.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vrle.h \
+ ../../../../../HISE/hi_rlottie/src/vector/vtaskqueue.h \
+ ../../../../../HISE/hi_rlottie/src/surpress_warnings_end.h
