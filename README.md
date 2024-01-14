@@ -1,5 +1,7 @@
 # HISE
 
+Find the executable in "projects/standalone/Builds/LinuxMakefile/build/HISE Standalone"
+
 ![](http://hise.audio/images/github.png)
 
 **Build Status macOS / Windows (`develop` branch)**  
